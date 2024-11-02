@@ -22,7 +22,7 @@ const Services = () => {
           >
             <img
               className="w-full"
-              src="/src/assets/card_image/And.jpg"
+              src="src/assets/card_image/And.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -53,7 +53,7 @@ const Services = () => {
           >
             <img
               className="w-full"
-              src="/src/assets/card_image/Data-Analysis.jpg"
+              src="src/assets/card_image/Data-Analysis.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -84,7 +84,7 @@ const Services = () => {
           >
             <img
               className="w-full"
-              src="/src/assets/card_image/frontend.jpg"
+              src="src/assets/card_image/frontend.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -115,7 +115,7 @@ const Services = () => {
           >
             <img
               className="w-full"
-              src="/src/assets/card_image/graphic.jpg"
+              src="src/assets/card_image/graphic.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -146,7 +146,7 @@ const Services = () => {
           >
             <img
               className="w-full"
-              src="/src/assets/card_image/QA.png"
+              src="src/assets/card_image/QA.png"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">

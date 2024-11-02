@@ -18,7 +18,7 @@ const Home = () => {
             </p>
           </div>
           <div className="x-1000 h-100 size-full">
-            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="/src/assets/Home.png" alt="hero" />
+            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="src/assets/Home.png" alt="hero" />
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Home = () => {
           <div className="">
             <img
               className="size-full w-full h-full transform transition duration-500 hover:scale-110"
-              src="/src/assets/About.png"
+              src="src/assets/About.png"
               alt=""
             />
           </div>
@@ -76,37 +76,37 @@ const Home = () => {
           <img
             className="size-32 bg-transparent transform transition duration-500 
            hover:scale-110 shadow-lg "
-            src="/src/assets/tech_icon/python.png"
+            src="src/assets/tech_icon/python.png"
             alt=""
           />
           <img
             className="size-32 transform transition duration-500 
            hover:scale-110 shadow-lg  bg-transparent"
-            src="/src/assets/tech_icon/nodejs.png"
+            src="src/assets/tech_icon/nodejs.png"
             alt=""
           />
           <img
             className="size-32 transform transition duration-500 
            hover:scale-110 shadow-lg  bg-transparent"
-            src="/src/assets/tech_icon/html5.png"
+            src="src/assets/tech_icon/html5.png"
             alt=""
           />
           <img
             className="size-32 transform transition duration-500 
            hover:scale-110 shadow-lg  bg-transparent"
-            src="/src/assets/tech_icon/react.png"
+            src="src/assets/tech_icon/react.png"
             alt=""
           />
           <img
             className="size-32 transform transition duration-500 
            hover:scale-110 shadow-lg  bg-transparent"
-            src="/src/assets/tech_icon/javascript.png"
+            src="src/assets/tech_icon/javascript.png"
             alt=""
           />
           <img
             className="size-32 transform transition duration-500 
            hover:scale-110 shadow-lg  bg-transparent"
-            src="/src/assets/tech_icon/css3.png"
+            src="src/assets/tech_icon/css3.png"
             alt=""
           />
         </div>
@@ -128,7 +128,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="/src/assets/card_image/And.jpg"
+              src="src/assets/card_image/And.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -156,7 +156,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="/src/assets/card_image/Data-Analysis.jpg"
+              src="src/assets/card_image/Data-Analysis.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -184,7 +184,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="/src/assets/card_image/frontend.jpg"
+              src="src/assets/card_image/frontend.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -212,7 +212,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="/src/assets/card_image/graphic.jpg"
+              src="src/assets/card_image/graphic.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -240,7 +240,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="/src/assets/card_image/QA.png"
+              src="src/assets/card_image/QA.png"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">

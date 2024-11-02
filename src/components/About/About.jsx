@@ -20,7 +20,7 @@ const About = () => {
           <div className="">
             <img
               className="size-10/12 transform transition duration-500 hover:scale-110"
-              src="/src/assets/About.png"
+              src="src/assets/About.png"
               alt=""
             />
           </div>
@@ -70,7 +70,7 @@ const About = () => {
         <div className="flex relative justify-evenly gap-32  items-center">
             <img
               className="size-5/12  transform transition duration-500 hover:scale-110 rounded-lg "
-              src="/src/assets/about_section/our_story.webp"
+              src="src/assets/about_section/our_story.webp"
               alt=""
             />
           <div className=" gap-8 p-16 m-12 text-center">
