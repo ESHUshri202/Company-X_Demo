@@ -1,4 +1,11 @@
 // import React from "react";
+
+import { IoLogoJavascript } from "react-icons/io5";
+import { RiJavascriptFill, RiJavascriptLine, RiReactjsLine } from "react-icons/ri";
+import { SiCsswizardry, SiPowerbi } from "react-icons/si";
+import { TbBrandPython } from "react-icons/tb";
+import { TiHtml5 } from "react-icons/ti";
+
 // import { Link } from "react-router-dom";
 const Home = () => {
   return (
@@ -18,7 +25,7 @@ const Home = () => {
             </p>
           </div>
           <div className="x-1000 h-100 size-full">
-            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="src/assets/Home.png" alt="hero" />
+            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="/src/assets/Home.png" alt="hero" />
           </div>
         </div>
       </div>
@@ -42,7 +49,7 @@ const Home = () => {
           <div className="">
             <img
               className="size-full w-full h-full transform transition duration-500 hover:scale-110"
-              src="src/assets/About.png"
+              src="/src/assets/About.png"
               alt=""
             />
           </div>
@@ -73,41 +80,28 @@ const Home = () => {
                   <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
         </div>
         <div className="flex gap-14 justify-center size-sm">
-          <img
+          
+          <TbBrandPython className="size-32 bg-transparent transform transition duration-500 
+           hover:scale-110 shadow-lg text-orange-700"/>
+          <SiPowerbi 
             className="size-32 bg-transparent transform transition duration-500 
-           hover:scale-110 shadow-lg "
-            src="src/assets/tech_icon/python.png"
-            alt=""
+           hover:scale-110 shadow-lg text-green-700"
           />
-          <img
-            className="size-32 transform transition duration-500 
-           hover:scale-110 shadow-lg  bg-transparent"
-            src="src/assets/tech_icon/nodejs.png"
-            alt=""
+          <TiHtml5
+            className="size-32 bg-transparent transform transition duration-500 
+           hover:scale-110 shadow-lg text-orange-500"
           />
-          <img
-            className="size-32 transform transition duration-500 
-           hover:scale-110 shadow-lg  bg-transparent"
-            src="src/assets/tech_icon/html5.png"
-            alt=""
+          <RiReactjsLine
+            className="size-32 bg-transparent transform transition duration-500 
+           hover:scale-110 shadow-lg text-blue-500"
           />
-          <img
-            className="size-32 transform transition duration-500 
-           hover:scale-110 shadow-lg  bg-transparent"
-            src="src/assets/tech_icon/react.png"
-            alt=""
+          <IoLogoJavascript
+            className="size-32 bg-transparent transform transition duration-500 
+           hover:scale-110 shadow-lg text-yellow-500"
           />
-          <img
-            className="size-32 transform transition duration-500 
-           hover:scale-110 shadow-lg  bg-transparent"
-            src="src/assets/tech_icon/javascript.png"
-            alt=""
-          />
-          <img
-            className="size-32 transform transition duration-500 
-           hover:scale-110 shadow-lg  bg-transparent"
-            src="src/assets/tech_icon/css3.png"
-            alt=""
+          <SiCsswizardry 
+            className="size-32 bg-transparent transform transition duration-500 
+           hover:scale-110 shadow-lg text-blue-800"
           />
         </div>
       </div>
@@ -128,7 +122,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/And.jpg"
+              src="https://www.androiddeveloper.co.in/blog/wp-content/uploads/2021/10/What-Makes-IoT-a-Popular-Trend-in-Android-App-Development.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -156,7 +150,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/Data-Analysis.jpg"
+              src="https://pyramidsystems.com/wp-content/uploads/2019/07/use-1-scaled.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -184,7 +178,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/frontend.jpg"
+              src="https://etraverse.com/wp-content/uploads/2023/12/front-end-development-company-in-hyderabad.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -212,7 +206,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/graphic.jpg"
+              src="https://karnavatiuniversity.edu.in/wp-content/uploads/2024/02/Benefits-of-Taking-Graphic-Design-Courses.jpeg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -240,7 +234,7 @@ const Home = () => {
           <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/QA.png"
+              src="https://media.licdn.com/dms/image/C5612AQFhSpoXLzEYbg/article-cover_image-shrink_720_1280/0/1624393342629?e=2147483647&v=beta&t=S4a6jHQIQ746P6g3kOB72E0K1dzoDdc1gTv9UrIqV44"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
