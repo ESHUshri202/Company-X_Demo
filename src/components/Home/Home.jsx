@@ -81,7 +81,7 @@ const Home = () => {
         </div>
         <div className="flex gap-14 justify-center size-sm">
           
-          <TbBrandPython className="size-32 bg-transparent transform transition duration-500 
+        <TbBrandPython className="size-32 bg-transparent transform transition duration-500 
            hover:scale-110 shadow-lg text-orange-700"/>
           <SiPowerbi 
             className="size-32 bg-transparent transform transition duration-500 
