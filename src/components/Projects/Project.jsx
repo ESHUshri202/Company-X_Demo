@@ -6,7 +6,7 @@ const products = [
     href: "#",
     price: "",
     imageSrc:
-      "https://images.pexels.com/photos/5852131/pexels-photo-5852131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL746wLxYsYINo-dnMlTHSJBTBRTzgQS7-JQ&s",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -16,7 +16,7 @@ const products = [
     href: "#",
     price: "",
     imageSrc:
-      "https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://mir-s3-cdn-cf.behance.net/projects/404/7fc82e199861651.Y3JvcCw0NjAyLDM2MDAsNzYzLDA.png",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
@@ -26,7 +26,7 @@ const products = [
     href: "#",
     price: "",
     imageSrc:
-      "https://images.pexels.com/photos/15863066/pexels-photo-15863066/free-photo-of-openai-website-with-introduction-to-chatgpt-on-computer-monitor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://www.androidauthority.com/wp-content/uploads/2022/11/twitter-1-scaled.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -36,40 +36,40 @@ const products = [
     href: "#",
     price: "",
     imageSrc:
-      "https://images.pexels.com/photos/17484901/pexels-photo-17484901/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-boundaries-set-in-place-to-secure-safe-accountable-biotechnology-it-was-created-by-artist-khyati-treha.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://www.naukri.com/campus/career-guidance/wp-content/uploads/2024/04/machine-learning.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
-  {
-    id: 5,
-    name: "Nomad Tumbler",
-    href: "#",
-    price: "",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg",
-    imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-  },
-  {
-    id: 6,
-    name: "Focus Paper Refill",
-    href: "#",
-    price: "",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 7,
-    name: "Machined Mechanical Pencil",
-    href: "#",
-    price: "",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
-  },
+  // {
+  //   id: 5,
+  //   name: "Nomad Tumbler",
+  //   href: "#",
+  //   price: "",
+  //   imageSrc:
+  //     "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg",
+  //   imageAlt:
+  //     "Olive drab green insulated bottle with flared screw lid and flat top.",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Focus Paper Refill",
+  //   href: "#",
+  //   price: "",
+  //   imageSrc:
+  //     "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg",
+  //   imageAlt:
+  //     "Person using a pen to cross a task off a productivity paper card.",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Machined Mechanical Pencil",
+  //   href: "#",
+  //   price: "",
+  //   imageSrc:
+  //     "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg",
+  //   imageAlt:
+  //     "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  // },
   // More products...
 ];
 const Project = () => {
@@ -84,7 +84,7 @@ const Project = () => {
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
                 <>
-                  <div className="border rounded-lg p-4 bg-white">
+                  <div className="border h-fit rounded-lg p-4 bg-white">
                     <a key={product.id} href={product.href} className="group">
                       <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                         <img

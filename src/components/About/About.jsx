@@ -19,8 +19,8 @@ const About = () => {
         <div className="flex relative justify-evenly gap-32 mb-1 items-center">
           <div className="">
             <img
-              className="size-10/12 transform transition duration-500 hover:scale-110"
-              src="src/assets/About.png"
+              className="rounded-2xl size-10/12 transform transition duration-500 hover:scale-110"
+              src="https://img.freepik.com/free-photo/robot-gesturing_1048-3571.jpg"
               alt=""
             />
           </div>
@@ -70,7 +70,7 @@ const About = () => {
         <div className="flex relative justify-evenly gap-32  items-center">
             <img
               className="size-5/12  transform transition duration-500 hover:scale-110 rounded-lg "
-              src="src/assets/about_section/our_story.webp"
+              src="https://www.chandigarhhelp.com/wp-content/uploads/2019/03/List-of-IT-Companies-in-Panchkula-1024x652.jpeg"
               alt=""
             />
           <div className=" gap-8 p-16 m-12 text-center">

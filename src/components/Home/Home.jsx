@@ -25,7 +25,7 @@ const Home = () => {
             </p>
           </div>
           <div className="x-1000 h-100 size-full">
-            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="/src/assets/Home.png" alt="hero" />
+            <img className="size-320 w-100 h-100 transform transition duration-500 hover:scale-110" src="https://www.moderndata.com/wp-content/uploads/2014/03/it-company.jpg" alt="hero" />
           </div>
         </div>
       </div>
@@ -48,8 +48,8 @@ const Home = () => {
         <div className="flex relative justify-evenly gap-96 my-12 items-center">
           <div className="">
             <img
-              className="size-full w-full h-full transform transition duration-500 hover:scale-110"
-              src="/src/assets/About.png"
+              className="rounded-2xl size-full bg-transparent w-full h-full transform transition duration-500 hover:scale-110"
+              src="https://img.freepik.com/free-photo/robot-gesturing_1048-3571.jpg"
               alt=""
             />
           </div>

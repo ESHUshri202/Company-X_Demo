@@ -16,13 +16,10 @@ const Services = () => {
           <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
         </div>
         <div className="grid gap-4 grid-cols-3 m-12">
-          <div
-            className="hover:bg-orange-900 max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950 transform transition duration-500 
-           hover:scale-110"
-          >
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/And.jpg"
+              src="https://www.androiddeveloper.co.in/blog/wp-content/uploads/2021/10/What-Makes-IoT-a-Popular-Trend-in-Android-App-Development.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -47,18 +44,15 @@ const Services = () => {
               </span>
             </div>
           </div>
-          <div
-            className="hover:bg-orange-900 max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950 transform transition duration-500 
-           hover:scale-110"
-          >
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/Data-Analysis.jpg"
+              src="https://pyramidsystems.com/wp-content/uploads/2019/07/use-1-scaled.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-white">
-                Data Analytics
+                Data Analytics 
               </div>
               <p className="text-gray-100 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -78,13 +72,10 @@ const Services = () => {
               </span>
             </div>
           </div>
-          <div
-            className="hover:bg-orange-900 max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950 transform transition duration-500 
-           hover:scale-110"
-          >
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/frontend.jpg"
+              src="https://etraverse.com/wp-content/uploads/2023/12/front-end-development-company-in-hyderabad.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -109,13 +100,10 @@ const Services = () => {
               </span>
             </div>
           </div>
-          <div
-            className="hover:bg-orange-900 max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950 transform transition duration-500 
-           hover:scale-110"
-          >
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/graphic.jpg"
+              src="https://karnavatiuniversity.edu.in/wp-content/uploads/2024/02/Benefits-of-Taking-Graphic-Design-Courses.jpeg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -140,13 +128,10 @@ const Services = () => {
               </span>
             </div>
           </div>
-          <div
-            className="max-w-sm hover:bg-orange-900  rounded overflow-hidden shadow-lg shadow-blue-950 transform transition duration-500 
-           hover:scale-110"
-          >
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-blue-950">
             <img
               className="w-full"
-              src="src/assets/card_image/QA.png"
+              src="https://media.licdn.com/dms/image/C5612AQFhSpoXLzEYbg/article-cover_image-shrink_720_1280/0/1624393342629?e=2147483647&v=beta&t=S4a6jHQIQ746P6g3kOB72E0K1dzoDdc1gTv9UrIqV44"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
@@ -161,7 +146,7 @@ const Services = () => {
             </div>
             <div className="px-6 pt-4 pb-2">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Unit Testing
+                Unit Testing 
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 BlackBox Testing
